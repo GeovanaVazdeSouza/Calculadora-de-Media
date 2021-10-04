@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+}
+
+/* Fundo */
+.fundo {
+  background-image: url(https://static.vecteezy.com/ti/vettori-gratis/p1/702144-di-colore-giallo-blu-minimalista-memphis-sfondo-gratuito-vettoriale.jpg);
+  background-size: 130%;
+  background-repeat: no-repeat;
+  margin-top: 25px;
+}
+
+/* Parte central */
+.caixa {
+  margin: 64px;
+  background: #ffff9d;
+  color: #000000;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Logo da Imersão Alura */
+.logo-imersao {
+  text-align: center;
+  margin-botton: 20px;
+}
+
+.img {
+  width: 30%;
+}
+
+/* Título e info */
+.titulo-info {
+  color: #000000;
+  font-family: "Times New Roman", serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.texto {
+  margin: 0;
+}
+
+/* Inputs */
+.inputs {
+  display: block;
+  height: 37px;
+  width: 295px;
+  margin: auto;
+  margin-top: 15px;
+  border-radius: 5px;
+  border: none;
+}
+
+/* Botão */
+.botao {
+  margin-top: 40px;
+  margin-left: 44%;
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 20px;
+  font-family: "Times New Roman", serif;
+  background: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 50px;
+  margin: auto;
+  display: table;
+  margin-top: 40px;
+  border-radius: 30px;
+  border: none;
+}
+
+/* Resultado */
+.resultado {
+  background-color: rgba(255, 255, 255, 0.123);
+  color: rgb(255, 255, 255);
+  width: 17%;
+  text-align: center;
+  height: 100px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 5px 20px;
+  min-width: 250px;
+}
+
+.sua-media {
+  padding: 5px;
+  text-align: center;
+  margin: auto;
+  color: #000000;
+  font-family: "Times New Roman", serif;
+  font-size: 35px;
+}
+
+.valor {
+  font-family: "Times New Roman", serif;
+  font-size: 35px;
+  margin: auto;
+  color: #000000;
+  display: inline-block;
+  padding: auto;
+}
+
+.aprovado-ou-nao {
+  font-family: "Times New Roman", serif;
+  padding: auto;
+  font-size: 25px;
+  margin: auto;
+  color: #000000;
+  display: inline-block;
+}

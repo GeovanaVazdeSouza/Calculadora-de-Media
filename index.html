@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Calculadora de Média - #imersãode_ Aula 01</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- Fundo -->
+
+<body class="fundo">
+  <div class="logo-imersao">
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="img">
+  </div>
+
+  <!--Caixa (Título, info e inputs) -->
+  <div class="caixa">
+    <div class="titulo-info">
+      <h1 class="texto">📚 Calculadora de Média</h1>
+      <h3 class="texto">Descubra se passou de ano! Calcule aqui sua média</h3>
+      <input id="mediaDasNotas" type="number" class="inputs" placeholder="Digite a média para aprovação: ">
+      <input id="primeiraNota" type="number" class="inputs" placeholder="Digite sua primeira nota: ">
+      <input id="segundaNota" type="number" class="inputs" placeholder="Digite sua segunda nota: ">
+      <input id="terceiraNota" type="number" class="inputs" placeholder="Digite sua terceira nota: ">
+      <input id="quartaNota" type="number" class="inputs" placeholder="Digite sua quarta nota: ">
+    </div>
+
+    <!-- Botão  -->
+    <button class="botao" onclick="calcular()">Calcular Média</button>
+  </div>
+  <div>
+    <h2 class="sua-media" id="suaMedia">Sua média é:</h2>
+  </div>
+
+  <!-- Resultado -->
+  <div class="resultado">
+    <h2 class="valor" id="valor"></h2>
+    <h3 class="aprovado-ou-nao" id="aprovado"></h3>
+  </div>
+</body>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
